@@ -1,0 +1,116 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logonav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.categorybutton {
+    color: rgb(23, 137, 198);
+    background-color: rgb(219, 238, 248);
+    border-radius: 4px;
+    padding: 6px 8px;
+    font-weight: bold;
+}
+
+.categoryimg {
+    width: 25px;
+    margin-right: 3px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-weight: 500;
+    color: gray;
+}
+
+.searchnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.searchbar {
+    border: 1px solid rgb(202, 201, 201);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 5px;
+    color: rgb(167, 167, 167);
+    border-radius: 4px;
+}
+
+.bi-search {
+    color: gray;
+    padding-left: 100px;
+}
+
+.profilelogo {
+    width: 50px;
+}
+
+
+
+
+main {
+    display: flex;
+    align-items: center;
+}
+
+section {
+    margin-left: 130px;
+}
+
+.section-h1 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.section-p {
+    color: grey;
+    margin-top: 30px;
+}
+
+.bg-img-right {
+    background-repeat: no-repeat;
+    /* float: right; */
+
+}
+
+.section-btn {
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    align-items: center;
+}
+
+.startbtn {
+    color: rgb(203, 9, 9);
+    background-color: rgb(251, 198, 198);
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.bi-play-circle-fill {
+    color: rgb(17, 114, 225);
+    /* border: 2px solid black; */
+    background-color: rgb(162, 214, 243);
+    border-radius: 100%;
+    padding: 5px 8px;
+
+}
+
+.cards-section {
+    margin: 30px;
+    padding: 30px;
+
+}
