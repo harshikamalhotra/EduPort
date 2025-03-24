@@ -114,3 +114,68 @@ section {
     padding: 30px;
 
 }
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.showimg {
+    background-image: url(./images/copymain.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 900px;
+
+}
+
+.top {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.frame {
+    display: flex;
+    width: 240px;
+    height: 110px;
+}
+
+/* .frame i{
+
+} */
+.midbar {
+    background-color: rgba(100, 166, 175, 0.498);
+    width: 1100px;
+    margin-left: 80px;
+}
+
+.bi-star-fill,
+.bi-star,
+.bi-star-half {
+    color: goldenrod;
+}
+
+.bi-heart,
+.bi-heart-fill {
+    color: red;
+}
+
+.bi-clock {
+    color: red;
+}
+
+.bi-calendar2-check {
+    color: orangered;
+}
+
+.card {
+    margin-top: 10px;
+    box-shadow: 2px 2px 10px grey;
+    height: 300px;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
