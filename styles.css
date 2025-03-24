@@ -115,67 +115,35 @@ section {
 
 }
 
-* {
-    box-sizing: border-box;
-    padding: 0px;
-    margin: 0px;
-}
 
-.showimg {
-    background-image: url(./images/copymain.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 900px;
 
-}
+@media screen and (orientation: portrait) {
 
-.top {
-    display: flex;
-    justify-content: space-evenly;
-}
+    .top .frame {
+        margin-bottom: 10px;
+    }
 
-.frame {
-    display: flex;
-    width: 240px;
-    height: 110px;
-}
+    .midbar {
+        margin-left: 10px;
+    }
 
-/* .frame i{
+    .cards {
+        margin-left: 22px;
+    }
 
-} */
-.midbar {
-    background-color: rgba(100, 166, 175, 0.498);
-    width: 1100px;
-    margin-left: 80px;
-}
+    .foot1 img {
+        width: 100px;
+        height: 50px;
+        margin-left: -15px;
+    }
 
-.bi-star-fill,
-.bi-star,
-.bi-star-half {
-    color: goldenrod;
-}
+    .fooot1 {
 
-.bi-heart,
-.bi-heart-fill {
-    color: red;
-}
+        width: 300px;
+    }
 
-.bi-clock {
-    color: red;
-}
-
-.bi-calendar2-check {
-    color: orangered;
-}
-
-.card {
-    margin-top: 10px;
-    box-shadow: 2px 2px 10px grey;
-    height: 300px;
-}
-
-.foot {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    .mid {
+        flex-direction: column;
+        margin-left: -10px;
+    }
 }
